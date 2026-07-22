@@ -1,27 +1,45 @@
-import { useEffect } from "react";
-import api from "./api/axios";
+import { Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar'
+import Dashboard from "./pages/Dashboard";
+import Members from "./pages/Members";
+import Trainers from "./pages/Trainers";
+import Exercises from "./pages/Exercises";
 
 
 function App(){
 
-    useEffect(()=>{
-
-        api.get("members/")
-        .then(response=>{
-            console.log(response.data);
-        })
-        .catch(error=>{
-            console.log(error);
-        })
-
-    },[]);
-
-
     return(
-        <h1>
-            Gym Management System
-        </h1>
-    )
+        <>
+            <Navbar>
+
+            </Navbar>
+        <Routes>
+
+            <Route 
+                path="/" 
+                element={<Dashboard />}
+            />
+
+            <Route 
+                path="/members" 
+                element={<Members />}
+            />
+
+            <Route 
+                path="/trainers" 
+                element={<Trainers />}
+            />
+
+            <Route 
+                path="/exercises" 
+                element={<Exercises />}
+            />
+
+        </Routes>
+        </>
+
+    );
+
 }
 
 
