@@ -4,6 +4,8 @@ import api from "../api/axios";
 
 function Trainers(){
 
+    const [trainers,setTrainers] = useState([]);
+    
     const [form,setForm] = useState({
         name:"",
         email:"",
