@@ -7,8 +7,8 @@ function Sessions() {
     const [members,setMembers] = useState([]);
     const [trainers,setTrainers] = useState([]);
     const [form,setForm] = useState({
-        member:"",
-        trainer:"",
+        member_id:"",
+        trainer_id:"",
         date:"",
         status:""
 
@@ -95,8 +95,8 @@ function Sessions() {
             <form onSubmit={addSession}>
 
                 <select
-                    name="member"
-                    value={form.member}
+                    name="member_id"
+                    value={form.member_id}
                     onChange={handleChange}
                 >
 
@@ -120,8 +120,8 @@ function Sessions() {
                 <br/><br/>
 
                 <select
-                    name="trainer"
-                    value={form.trainer}
+                    name="trainer_id"
+                    value={form.trainer_id}
                     onChange={handleChange}
                 >
                     <option value="">
@@ -205,11 +205,11 @@ function Sessions() {
                         <tr key={session.id}>
 
                             <td>
-                                {session.member}
+                                {session.member.name}
                             </td>
 
                             <td>
-                                {session.trainer}
+                                {session.trainer.name}
                             </td>
 
                             <td>
