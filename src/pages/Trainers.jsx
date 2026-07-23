@@ -66,9 +66,9 @@ function Trainers(){
 
         <div>
 
-            <h1>
+            <h2>
                 Trainers
-            </h1>
+            </h2>
 
             <form onSubmit={addTrainer}>
 

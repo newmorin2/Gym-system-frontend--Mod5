@@ -86,7 +86,7 @@ function WorkoutPlans() {
     return (
         <div>
 
-            <h1>Workout Plans</h1>
+            <h2>Workout Plans</h2>
 
             <form onSubmit={addWorkoutPlan}>
                 <input

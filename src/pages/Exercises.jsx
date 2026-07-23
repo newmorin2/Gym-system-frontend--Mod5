@@ -61,7 +61,7 @@ function Exercises(){
 
         <div>
 
-            <h1>Exercises</h1>
+            <h2>Exercises</h2>
             <form onSubmit={addExercise}>
 
                 <input

@@ -88,9 +88,9 @@ function Sessions() {
     return (
         <div>
 
-            <h1>
+            <h2>
                 Sessions
-            </h1>
+            </h2>
 
             <form onSubmit={addSession}>
 

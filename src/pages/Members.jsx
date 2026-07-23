@@ -80,9 +80,9 @@ function Members(){
 
         <div>
 
-            <h1>
+            <h2>
                 Members
-            </h1>
+            </h2>
 
             <form onSubmit={addMember}>
 
