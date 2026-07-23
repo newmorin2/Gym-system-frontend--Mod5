@@ -4,7 +4,8 @@ import Dashboard from "./pages/Dashboard";
 import Members from "./pages/Members";
 import Trainers from "./pages/Trainers";
 import Exercises from "./pages/Exercises";
-
+import WorkoutPlans from "./pages/WorkoutPlans";
+// import Sessions from "./pages/sessions";
 
 function App(){
 
@@ -40,10 +41,10 @@ function App(){
                 element={<WorkoutPlans />}
             />
 
-            <Route
+            {/* <Route
                 path="/sessions"
                 element={<Sessions />}
-            />
+            /> */}
 
         </Routes>
         </>
