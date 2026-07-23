@@ -23,6 +23,13 @@ function Navbar(){
                 Exercises
             </Link>
 
+            <Link to="/workout-plans">
+                Workout Plans
+            </Link>
+
+             <Link to="/sessions">
+                Sessions
+            </Link>
         </nav>
 
     )
