@@ -35,6 +35,16 @@ function App(){
                 element={<Exercises />}
             />
 
+            <Route
+                path="/workout-plans"
+                element={<WorkoutPlans />}
+            />
+
+            <Route
+                path="/sessions"
+                element={<Sessions />}
+            />
+
         </Routes>
         </>
 
