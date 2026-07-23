@@ -1,16 +1,54 @@
-# React + Vite
+# Gym Management System 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application for managing gym operations.  
+This application provides an interface for managing members, trainers, exercises, workout plans, training sessions, and attendance records.
 
-Currently, two official plugins are available:
+The frontend communicates with a Django REST API backend through Axios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View gym dashboard statistics
+- Manage members
+- Manage trainers
+- Manage exercises
+- Create and manage workout plans
+- Assign exercises to workout plans
+- Manage training sessions
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- React Router DOM
+- Axios
+- CSS
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone git@github.com:newmorin2/Gym-system-frontend--Mod5.git
+```
+
+Move into project:
+```bash
+cd frontend
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Start the development server:
+```bash
+npm run dev
+```
