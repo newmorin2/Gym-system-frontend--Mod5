@@ -1,7 +1,7 @@
 # Gym Management System 
 
 A React application for managing gym operations.  
-This application provides an interface for managing members, trainers, exercises, workout plans, training sessions, and attendance records.
+An application for managing members, trainers, exercises, workout plans, training sessions.
 
 The frontend communicates with a Django REST API backend through Axios.
 
